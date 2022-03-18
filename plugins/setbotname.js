@@ -9,9 +9,9 @@ let handler = async (m, { conn, text, usedPrefix, args }) => {
     throw `Error`
   }
 }
-handler.help = ['setbotname <teks>']
-handler.tags = ['owner']
-handler.command = /^(setbotname)$/i
+handler.help = ['Ragil Bot<teks>']
+handler.tags = ['Ragil']
+handler.command = /^(Ragil Bot)$/i
 handler.owner = true
 
 module.exports = handler
