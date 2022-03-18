@@ -89,7 +89,7 @@ module.exports = {
           if (!('sPromote' in chat)) chat.sPromote = ''
           if (!('sDemote' in chat)) chat.sDemote = ''
           if (!('antiLink' in chat)) chat.antiLink = true
-          if (!('autoread' in chat)) chat.autoread = false
+          if (!('autoread' in chat)) chat.autoread = true
           if (!('broadcast' in chat)) chat.broadcast = true
           if (!('badword' in chat)) chat.badword = false
           if (!('delete' in chat)) chat.delete = true
@@ -108,7 +108,7 @@ module.exports = {
           sPromote: '',
           sDemote: '',
           antiLink: true,
-          autoread: false,
+          autoread: true,
           broadcast: true,
           delete: true,
           desc: true,
